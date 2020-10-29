@@ -1,23 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import {FaHippo} from 'react-icons/fa';
+import Cake from './Cake';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <FaHippo className="App-logo"/>
+        <Cake className="App-logo"/>
       </header>
     </div>
   );
